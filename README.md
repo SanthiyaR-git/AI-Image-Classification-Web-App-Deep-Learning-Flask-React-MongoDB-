@@ -49,8 +49,8 @@ ImageClassificationApp/
 
 **Installation & Setup**
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/Image-Classification-NN.git
-cd Image-Classification-NN
+git clone https://github.com/SanthiyaR-git/AI-Image_Classification-Web-App-Deep-Learning-Flask-React-MongoDB-NN.git
+cd AI-Image_Classification-Web-App-Deep-Learning-Flask-React-MongoDB-NN
 
 2️⃣ Create a Virtual Environment
 python -m venv venv
