@@ -2,7 +2,7 @@
 A full-stack AI-powered web application for image classification using Deep Learning (CNN).
 Built with Flask, TensorFlow, and MongoDB, it allows users to upload an image and get instant classification results along with prediction confidence.
 
-Project Demo
+**Project Demo**
 
 🚀 Live Demo (Localhost):
 http://127.0.0.1:5000/
@@ -17,7 +17,7 @@ Displays prediction + confidence
 
 Saves results to MongoDB for analytics/logging
 
-Features
+**Features**
 
 ✅ Upload any image (JPG, PNG, etc.)
 ✅ Classify using a CNN model (TensorFlow/Keras)
@@ -26,7 +26,7 @@ Features
 ✅ Simple & clean frontend (HTML + JS + CSS inside Flask)
 ✅ Single-file deployment (app.py)
 
-Tech Stack
+**Tech Stack**
 | Component         | Technology                                  |
 | ----------------- | ------------------------------------------- |
 | **Frontend**      | HTML5, CSS3, Vanilla JS                     |
@@ -37,7 +37,7 @@ Tech Stack
 | **Model**         | Custom CNN trained for image classification |
 
 
-Folder Structure
+**Folder Structure**
 ImageClassificationApp/
 │
 ├── app.py                  # Main full-stack Flask application
@@ -47,7 +47,7 @@ ImageClassificationApp/
 └── README.md               # Documentation (this file)
 
 
-Installation & Setup
+**Installation & Setup**
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/Image-Classification-NN.git
 cd Image-Classification-NN
@@ -92,7 +92,7 @@ Accuracy: ~90%+ (depending on dataset)
 
 You can retrain the model by replacing the CNN training section in app.py with your dataset.
 
-Example Output
+**Example Output**
 🖼️ Uploaded Image:
 dog.jpg
 
@@ -120,7 +120,7 @@ MongoDB Record Example
   "timestamp": "2025-10-08 09:47:11"
 }
 
-How It Works
+**How It Works**
 
 Upload → User selects an image.
 
@@ -132,7 +132,7 @@ Store → Result saved to MongoDB with timestamp.
 
 Display → Frontend shows prediction + confidence + image.
 
-Future Enhancements
+**Future Enhancements**
 
  Add MySQL support (optional backend database)
 
